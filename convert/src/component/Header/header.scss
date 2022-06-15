@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+
+  &__button:hover {
+  color: aliceblue;
+  background: #000000;
+}
+
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 35px;
+
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 80px;
+
+  &__business {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.nav {
+  font-size: 18px;
+
+  &:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+  }
+}
